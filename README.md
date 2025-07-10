@@ -1,4 +1,6 @@
-# Ayush Verma - Portfolio Website
+# 💼 Ayush Verma — Personal Portfolio Website
+
+Welcome to my personal portfolio website! This is a responsive and visually engaging web project that showcases who I am, what I build, and how I connect with the world as a Computer Science student and developer. 🌐💻
 
 A modern, responsive portfolio website showcasing skills, projects, and achievements in web development, AI/ML, and computer science.
 
@@ -19,6 +21,8 @@ A modern, responsive portfolio website showcasing skills, projects, and achievem
 - **Scroll Progress**: Visual progress indicator at the top of the page
 - **Mobile Menu**: Improved hamburger menu with smooth animations
 - **Loading Animations**: Fade-in effects for images and content sections
+- **Dark Mode Toggle**: Theme switching functionality
+- **Chatbot Integration**: Interactive chatbot for enhanced user experience
 
 ### 📱 **Mobile Experience**
 - **Touch Gestures**: Support for swipe gestures on mobile devices
@@ -153,7 +157,8 @@ Portfolio 2/
 ├── Images/             # Image assets
 │   ├── bg2.jpg        # Hero background
 │   ├── mp2.png        # Profile image
-│   ├── p1.png         # Project images
+│   ├── p0.png         # Project images
+│   ├── p1.png
 │   ├── p2.png
 │   ├── p3.jpg
 │   └── p5.png
@@ -182,5 +187,7 @@ Portfolio 2/
 For any questions or feedback about this portfolio website, feel free to reach out through the contact form or social media links provided in the website.
 
 ---
+
+⚡ Made with passion, purpose, and lots of coffee ☕ by Ayush Verma
 
 **Built with ❤️ using HTML5, CSS3, and JavaScript**
