@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="style.css"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <title>Ayush Verma - Portfolio</title> 
-</head> 
-<body> 
+ </head> 
+ <body> 
   <!-- Header --> 
   <section id="header"> 
    <div class="header container"> 
@@ -23,7 +23,7 @@
       </div> 
       <ul> 
        <li><a href="#hero" data-after="Home">Home</a></li> 
-       <li><a href="#about" data-after="About">About</a></li> 
+        <li><a href="#about" data-after="About">About</a></li> 
        <li><a href="#skills" data-after="Skills">Skills</a></li>
        <li><a href="#projects" data-after="Projects">Projects</a></li> 
        <li><a href="#achievements" data-after="Achievements">Achievements</a></li> 
@@ -41,8 +41,8 @@
     <div class="hero-content"> 
      <h1>Hello, <span></span></h1> 
      <h1>I'm <span class="highlight">Ayush Verma</span><span></span></h1> 
-     <h1>Computer Science Enthusiast<span></span></h1> 
-     <p class="hero-subtitle">Passionate about AI/ML, Web Development & Innovation</p>
+     <h2 class="hero-subtitle1">Computer Science Enthusiast<span></span></h2> 
+     <p class="hero-subtitle2">Passionate about AI/ML, Web Development & Innovation</p>
      <div class="hero-buttons">
        <a href="https://github.com/ayushv-nitj" class="cta primary" target="_blank">
          <i class="fab fa-github"></i> GitHub
@@ -52,16 +52,16 @@
     </div> 
     <div class="scroll-indicator">
       <div class="scroll-arrow"></div>
-    </div>
+    </div> 
    </div> 
   </section> 
   <!-- End Hero Section  --> 
 
-  <!-- About Section --> 
+   <!-- About Section --> 
   <section id="about"> 
    <div class="about container"> 
     <div class="col-left"> 
-      <div class="about-img">
+  <div class="about-img">
         <img src="Images/mp2.png" alt="Ayush Verma">
         <div class="about-img-overlay">
           <div class="social-links">
@@ -70,8 +70,8 @@
             <a href="https://discordapp.com/users/1132746842472468532" target="_blank"><i class="fab fa-discord"></i></a>
           </div>
         </div>
-      </div>
-    </div>
+  </div>
+</div>
     <div class="col-right"> 
      <h1 class="section-title">About <span>me</span></h1> 
      <h2>💻 Computer Science Enthusiast | C++ | Python | Web Development | AI/ML 🤖</h2> 
@@ -156,19 +156,16 @@
     </div>
   </section>
   <!-- End Skills Section -->
-
+ 
   <!-- Projects Section --> 
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Pro<span>j</span>ects</h1>
-        <p>My passion for innovation extends to Web Development and Python-based projects. These projects reflect my ability to blend creativity with technical expertise, consistently delivering impactful solutions. Committed to continuous learning and excellence, I thrive in fast-paced environments that challenge me to push boundaries in web and AI development.</p>
-      </div>
-      <div class="all-projects">
-
+ <section id="projects">
+  <div class="projects container">
+    <div class="all-projects">
+        <h1 class="projects-title">Pro<span>j</span>ects</h1>
+        <p style="text-align: center; font-size: 2rem; color: rgba(255, 255, 255, 0.9); line-height: 1.6; margin-bottom: 60px; max-width: 800px; margin-left: auto; margin-right: auto;">My passion for innovation extends to Web Development and Python-based projects. These projects reflect my ability to blend creativity with technical expertise, consistently delivering impactful solutions. Committed to continuous learning and excellence, I thrive in fast-paced environments that challenge me to push boundaries in web and AI development.</p>
 
         <!--Discussion Forum-->
-        
+       
         <!-- Discussion forum -->
         <div class="project-item">
           <div class="project-img">
@@ -193,112 +190,115 @@
           </div>
         </div>
 
-        <!-- Team Phoenix Website -->
-        <div class="project-item">
-          <div class="project-img">
-            <img src="Images/p1.png" alt="Team Phoenix Website">
+      <!-- Team Phoenix Website -->
+      <div class="project-item">
+        <div class="project-img">
+          <img src="Images/p1.png" alt="Team Phoenix Website">
             <div class="project-overlay">
               <div class="project-links">
-                <a href="#" class="project-link" target="main"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                <a href="#" class="project-link" target="main"><i class="fab fa-github"></i> Source Code</a>
+                <a href="https://ayushv-nitj.github.io/team-phoenix-website/" class="project-link" target="main"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="https://github.com/ayushv-nitj/team-phoenix-website.git" class="project-link" target="main"><i class="fab fa-github"></i> Source Code</a>
               </div>
             </div>
-          </div>
-          <div class="project-info">
-            <h1>Team Phoenix Website</h1>
+        </div>
+        <div class="project-info">
+          <h1>Team Phoenix Website</h1>
             <h2><i class="fab fa-html5"></i> HTML • <i class="fab fa-css3-alt"></i> CSS • <i class="fab fa-js"></i> JavaScript • <i class="fas fa-fire"></i> Firebase</h2>
-            <p>Showcases projects, media galleries, includes a chatbot, dark mode toggle and smooth scroll animations.</p>
+          <p>Showcases projects, media galleries, includes a chatbot, dark mode toggle and smooth scroll animations.</p>
             <div class="project-tech">
               <span class="tech-tag">HTML5</span>
               <span class="tech-tag">CSS3</span>
               <span class="tech-tag">JavaScript</span>
               <span class="tech-tag">Firebase</span>
             </div>
-          </div>
         </div>
+      </div>
 
-        <!-- Finger Counter -->
-        <div class="project-item">
-          <div class="project-img">
-            <img src="Images/p2.png" alt="Finger Counter App">
+
+      <!-- LinkedIn AdBlocker -->
+      <div class="project-item">
+        <div class="project-img">
+          <img src="Images/p5.png" alt="LinkedIn AdBlocker">
             <div class="project-overlay">
               <div class="project-links">
                 <a href="#" class="project-link" target="main"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                <a href="#" class="project-link" target="main"><i class="fab fa-github"></i> Source Code</a>
+                <a href="https://github.com/ayushv-nitj/LinkedIn-AdsBlocker-Extension.git" class="project-link" target="main"><i class="fab fa-github"></i> Source Code</a>
               </div>
             </div>
+        </div>
+        <div class="project-info">
+          <h1>LinkedIn AdBlocker</h1>
+            <h2><i class="fab fa-js"></i> JavaScript • <i class="fab fa-chrome"></i> Manifest V3 • <i class="fas fa-puzzle-piece"></i> Chrome Extension</h2>
+            <p>Chrome extension that detects and hides "Promoted" LinkedIn posts, displaying ads blocked count.</p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              
+              <span class="tech-tag">Manifest V3</span>
+              
+            </div>
           </div>
-          <div class="project-info">
-            <h1>Finger Counter</h1>
+        </div>
+
+      <!-- Finger Counter -->
+      <div class="project-item">
+        <div class="project-img">
+          <img src="Images/p2.png" alt="Finger Counter App">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://youtu.be/kSUgJHKO4Xs?si=w9duS0rRznyxVDDa" class="project-link" target="main"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="https://github.com/ayushv-nitj/Finger_Counter_Python.git" class="project-link" target="main"><i class="fab fa-github"></i> Source Code</a>
+              </div>
+            </div>
+        </div>
+        <div class="project-info">
+          <h1>Finger Counter</h1>
             <h2><i class="fab fa-python"></i> Python • <i class="fas fa-eye"></i> OpenCV • <i class="fas fa-hand-paper"></i> MediaPipe</h2>
-            <p>Real-time hand tracking to count fingers using webcam — a gesture recognition demo.</p>
+          <p>Real-time hand tracking to count fingers using webcam — a gesture recognition demo.</p>
             <div class="project-tech">
               <span class="tech-tag">Python</span>
               <span class="tech-tag">OpenCV</span>
               <span class="tech-tag">MediaPipe</span>
               <span class="tech-tag">Computer Vision</span>
             </div>
-          </div>
         </div>
+      </div>
 
-        <!-- Virtual Paint -->
-        <div class="project-item">
-          <div class="project-img">
-            <img src="Images/p3.jpg" alt="Virtual Paint App">
+      <!-- Virtual Paint -->
+      <div class="project-item">
+        <div class="project-img">
+          <img src="Images/p3.jpg" alt="Virtual Paint App">
             <div class="project-overlay">
               <div class="project-links">
-                <a href="#" class="project-link" target="main"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                <a href="#" class="project-link" target="main"><i class="fab fa-github"></i> Source Code</a>
+                <a href="https://youtu.be/MOoM1TPCG88?si=9v7johCkk5NJfbsA" class="project-link" target="main"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="https://github.com/ayushv-nitj/AI-Virtual-Paint.git" class="project-link" target="main"><i class="fab fa-github"></i> Source Code</a>
               </div>
             </div>
-          </div>
-          <div class="project-info">
-            <h1>Virtual Paint</h1>
+        </div>
+        <div class="project-info">
+          <h1>Virtual Paint</h1>
             <h2><i class="fab fa-python"></i> Python • <i class="fas fa-eye"></i> OpenCV • <i class="fas fa-hand-paper"></i> MediaPipe • <i class="fas fa-volume-up"></i> Pycaw</h2>
-            <p>AI-powered painting tool controlled by finger movements—no touchscreen required.</p>
+          <p>AI-powered painting tool controlled by finger movements—no touchscreen required.</p>
             <div class="project-tech">
               <span class="tech-tag">Python</span>
               <span class="tech-tag">OpenCV</span>
               <span class="tech-tag">MediaPipe</span>
               <span class="tech-tag">AI/ML</span>
             </div>
-          </div>
         </div>
-
-        <!-- LinkedIn AdBlocker -->
-        <div class="project-item">
-          <div class="project-img">
-            <img src="Images/p5.png" alt="LinkedIn AdBlocker">
-            <div class="project-overlay">
-              <div class="project-links">
-                <a href="#" class="project-link" target="main"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                <a href="#" class="project-link" target="main"><i class="fab fa-github"></i> Source Code</a>
-              </div>
-            </div>
-          </div>
-          <div class="project-info">
-            <h1>LinkedIn AdBlocker</h1>
-            <h2><i class="fab fa-js"></i> JavaScript • <i class="fab fa-chrome"></i> Manifest V3 • <i class="fas fa-puzzle-piece"></i> Chrome Extension</h2>
-            <p>Chrome extension that detects and hides "Promoted" LinkedIn posts, displaying ads blocked count.</p>
-            <div class="project-tech">
-              <span class="tech-tag">JavaScript</span>
-              <span class="tech-tag">Chrome Extension</span>
-              <span class="tech-tag">Manifest V3</span>
-              <span class="tech-tag">DOM Manipulation</span>
-            </div>
-          </div>
-        </div>
-
       </div>
+
+      
+
     </div>
-  </section>
+  </div>
+</section>
   <!-- End Projects Section --> 
 
   <!-- Achievements Section --> 
   <section id="achievements"> 
    <div class="achievements container"> 
     <div class="achievements-header"> 
-     <h1 class="section-title">Achie<span>v</span>ements</h1> 
+     <h1>Achie<span>v</span>ements</h1> 
      <p>Recognition for my contributions and dedication to technology and innovation</p>
     </div> 
     <div class="achievements-grid"> 
@@ -339,55 +339,67 @@
   <section id="contact"> 
    <div class="contact container"> 
     <div class="contact-header"> 
-     <h1 class="section-title">Contact <span>info</span></h1> 
-     <p>Let's connect and discuss opportunities for collaboration or just say hello!</p>
+     <h1>Get In <span>Touch</span></h1> 
+     <p>Ready to collaborate on exciting projects? Let's discuss opportunities and bring your ideas to life together!</p>
     </div> 
+    <div class="contact-content">
+      <div class="contact-info-section">
+        <h2>Contact Information</h2>
     <div class="contact-items"> 
      <div class="contact-item"> 
       <div class="icon"> 
-       <i class="fas fa-phone"></i>
+           <i class="fas fa-phone"></i>
       </div> 
       <div class="contact-info"> 
        <h1>Phone</h1> 
-       <h2>+91 89360****</h2> 
-       <h2>+91 766729****</h2> 
+           
+           <h2>+91 7667296538</h2> 
       </div> 
      </div> 
      <div class="contact-item"> 
       <div class="icon"> 
-       <i class="fas fa-envelope"></i>
+           <i class="fas fa-envelope"></i>
       </div> 
       <div class="contact-info"> 
        <h1>Email</h1> 
-       <h2>ayush7610jsr@gmail.com</h2> 
+       
        <h2>ayushverma9d12@gmail.com</h2> 
       </div> 
      </div> 
      <div class="contact-item"> 
       <div class="icon"> 
-       <i class="fas fa-map-marker-alt"></i>
+           <i class="fas fa-map-marker-alt"></i>
       </div> 
       <div class="contact-info"> 
        <h1>Address</h1> 
        <h2>Jamshedpur, Jharkhand, India</h2> 
       </div> 
+         </div> 
+        </div> 
+      </div>
+      <div class="contact-form-section">
+        <h2>Send Message</h2>
+        <form id="contactForm" class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project or inquiry..." rows="6" required></textarea>
+          </div>
+          <button type="submit" class="cta">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
      </div> 
     </div> 
-    <div class="contact-form">
-      <h2>Send me a message</h2>
-      <form id="contactForm">
-        <div class="form-group">
-          <input type="text" id="name" name="name" placeholder="Your Name" required>
-        </div>
-        <div class="form-group">
-          <input type="email" id="email" name="email" placeholder="Your Email" required>
-        </div>
-        <div class="form-group">
-          <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="cta">Send Message</button>
-      </form>
-    </div>
    </div> 
   </section> 
   <!-- End Contact Section --> 
@@ -397,36 +409,36 @@
    <div class="footer container"> 
     <div class="footer-content">
       <div class="footer-brand"> 
-       <h1><span>A</span>yush <span>V</span>erma</h1> 
+     <h1><span>A</span>yush <span>V</span>erma</h1> 
        <h2>Software Developer</h2> 
        <p>Passionate about creating innovative solutions through code</p>
-      </div> 
-      <div class="social-icon"> 
-       <div class="social-item"> 
-        <a href="https://www.linkedin.com/in/ayush-verma-jsr25/" target="_blank">
+    </div> 
+    <div class="social-icon"> 
+     <div class="social-item"> 
+      <a href="https://www.linkedin.com/in/ayush-verma-jsr25/" target="_blank">
           <i class="fab fa-linkedin"></i>
-        </a>
-       </div> 
-       <div class="social-item"> 
+</a>
+     </div> 
+     <div class="social-item"> 
         <a href="https://www.instagram.com/av_alanche._/" target="_blank">
           <i class="fab fa-instagram"></i>
         </a> 
-       </div> 
-       <div class="social-item">
-        <a href="https://github.com/ayushv-nitj" target="_blank">
+     </div> 
+   <div class="social-item">
+  <a href="https://github.com/ayushv-nitj" target="_blank">
           <i class="fab fa-github"></i>
         </a>
        </div>
        <div class="social-item">
         <a href="https://discordapp.com/users/1132746842472468532" target="_blank">
           <i class="fab fa-discord"></i>
-        </a>
-       </div>
+  </a>
+</div>
       </div> 
     </div>
     <div class="footer-bottom">
       <p>Copyright © 2025 Ayush Verma. All rights reserved</p> 
-    </div>
+    </div> 
    </div> 
   </section> 
   <!-- End Footer --> 

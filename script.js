@@ -24,9 +24,9 @@ menu_item.forEach((item) => {
 document.addEventListener('scroll', () => {
   var scroll_position = window.scrollY;
   if (scroll_position > 250) {
-    header.style.backgroundColor = 'rgba(44, 62, 80, 0.98)';
+    header.classList.add('scrolled');
   } else {
-    header.style.backgroundColor = 'rgba(44, 62, 80, 0.95)';
+    header.classList.remove('scrolled');
   }
 });
 
@@ -215,35 +215,10 @@ projectItems.forEach(item => {
   
   item.addEventListener('mouseleave', function() {
     this.style.transform = 'translateY(0)';
-  });
+  }); 
 });
 
-// Typing effect for hero section
-function typeWriter(element, text, speed = 100) {
-  let i = 0;
-  element.innerHTML = '';
-  
-  function type() {
-    if (i < text.length) {
-      element.innerHTML += text.charAt(i);
-      i++;
-      setTimeout(type, speed);
-    }
-  }
-  
-  type();
-}
 
-// Initialize typing effect when page loads
-window.addEventListener('load', () => {
-  const heroTitle = document.querySelector('#hero h1:nth-child(2)');
-  if (heroTitle) {
-    const originalText = heroTitle.textContent;
-    setTimeout(() => {
-      typeWriter(heroTitle, originalText, 150);
-    }, 2000);
-  }
-});
 
 // Parallax effect for hero section
 window.addEventListener('scroll', () => {
